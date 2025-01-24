@@ -28,8 +28,9 @@ namespace TravelTripProje.Controllers
         }
 
         [HttpGet]
-        public PartialViewResult YorumYap()
+        public PartialViewResult YorumYap(int id)
         {
+            ViewBag.deger = id;
             return PartialView();
         }
 
@@ -38,7 +39,7 @@ namespace TravelTripProje.Controllers
         {
             c.Yorumlars.Add(y);
             c.SaveChanges();
-            return PartialView("Index");
+            return PartialView();
         }
     }
 }

@@ -1,11 +1,11 @@
-﻿yorum yap
-
-@*<div class="content-form">
-        <h3>Bir Yorum Yapın</h3>
-        <form>
-            <input type="text" placeholder="Kullanıcı Adı" required />
-            <input type="text" placeholder="Mail Adresi" required />
-            <textarea placeholder="Yorum"></textarea>
-            <input type="submit" value="Gönder" />
-        </form>
-    </div>*@
+﻿
+<div class="content-form">
+    <h3>Bir Yorum Yapın</h3>    
+    <form method="post">
+        <input type="hidden" placeholder="ID" name="Blogid" value="@ViewBag.deger" required />
+        <input type="text" placeholder="Kullanıcı Adı" name="KullaniciAdi" required />
+        <input type="text" placeholder="Mail Adresi" name="Mail" required />
+        <textarea placeholder="Yorum" name="Yorum"></textarea>
+        <input type="submit" value="Gönder" />
+    </form>
+</div>
