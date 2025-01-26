@@ -11,6 +11,7 @@ namespace TravelTripProje.Controllers
     public class AdminController : Controller
     {
         Context c = new Context();
+        [Authorize]
         public ActionResult Index()
         {
             var degerler = c.Blogs.ToList();
