@@ -214,6 +214,7 @@
     <Content Include="web\images\hakkimizda.png" />
     <Content Include="web\images\head_bg.jpg" />
     <Content Include="web\images\head_bot.gif" />
+    <Content Include="web\images\icons8-whatsapp-24.png" />
     <Content Include="web\images\img1.jpg" />
     <Content Include="web\images\img2.jpg" />
     <Content Include="web\images\img3.jpg" />
@@ -282,6 +283,11 @@
     <Content Include="weblogin\fonts\Asap-Regular.ttf" />
     <Content Include="weblogin\fonts\Audiowide-Regular.ttf" />
     <Content Include="Views\GirisYap\Login.cshtml" />
+    <Content Include="Views\Default\SendMessage.cshtml" />
+    <Content Include="Views\Default\Contact.cshtml" />
+    <Content Include="Views\Admin\MessageList.cshtml" />
+    <Content Include="Views\Admin\About.cshtml" />
+    <Content Include="Views\Admin\AboutGetir.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

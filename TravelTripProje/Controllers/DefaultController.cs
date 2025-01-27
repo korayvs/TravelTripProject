@@ -50,5 +50,23 @@ namespace TravelTripProje.Controllers
             var deger = c.Blogs.Take(3).OrderByDescending(x => x.ID).ToList();
             return PartialView(deger);
         }
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
+        public PartialViewResult SendMessage()
+        {
+            return PartialView();
+        }
+
+        [HttpPost]
+        public PartialViewResult SendMessage(Iletisim ilt)
+        {
+            c.Iletisims.Add(ilt);
+            c.SaveChanges();
+            return PartialView();
+        }
     }
 }

@@ -1,0 +1,53 @@
+﻿@model TravelTripProje.Models.Siniflar.Iletisim
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <title>İletişim & Bilgi Sayfası | Contact :: w3layouts</title>
+    <link href="~/web2/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="~/web2/css/style.css" rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Personal Blog Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <link href='http://fonts.googleapis.com/css?family=Oswald:100,400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div class="contact">
+        <div class="wrap">
+            <div class="contact-top">
+                <h2 style="color:#880033">İletişim & Bilgi</h2>
+                <p>Buradan bana özel olarak mesaj yollayabilir, isteklerinizi belirtebilirsiniz ve sayfayı geliştirmem için önerilerde de bulunabilirsiniz. Aşağıda bulunan iletişim bilgilerimden de bana ulaşabilirsiniz.</p>
+            </div>
+            @Html.Action("SendMessage")
+            <div class="clearfix"></div>
+
+            <div class="contact-details">
+                <div class="col-md-6 contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1064.761169525394!2d29.029768849605674!3d40.990252657161754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9f0b8afbb1f%3A0x703cd0993370cf84!2zS2FkxLFrw7Z5IEJvxJ9hIEhleWtlbGk!5e0!3m2!1str!2str!4v1737995465249!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6 company_address">
+                    <h4 style="color:#880033">Adres Bilgilerim</h4>
+                    <p>Örnek Mah. Örnek Cad. Örnek Apt. No:1</p>
+                    <p>İstanbul / Türkiye</p>
+                    <p>Telefon: (543) 222 11 00</p>
+                    <p>Email: <a href="mailto:koray-vatansever@hotmail.com">koray-vatansever@hotmail.com</a></p>
+                    <p>Sosyal Medya: <a href="#">İnstagram</a>, <a href="#">LinkedIn</a>, <a href="#">Github</a></p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+    </div>
+
+</body>
+</html>
