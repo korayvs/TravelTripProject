@@ -14,7 +14,7 @@ Bu proje, kullanıcıların blog yazılarını okuyabileceği, yorum yapabilece�
 - 🔹 Validation (Doğrulama) Kontrolleri: Gerekli alanlar için Required kullanıldı
 - 🔹 Entity Framework (Code First) & SQL Server ile veri yönetimi sağlandı
 - 🔹 Yetkilendirme (Authorize) mekanizması ile güvenlik sağlandı
-- 🔹 Session Timeout yönetimi ile oturum süresi kontrol altına alındı
+ 🔹 Session Timeout yönetimi ile oturum süresi kontrol altına alındı
 ## 🚀 **Kullanılan Teknolojiler**
 - ASP.NET MVC 5
 - Entity Framework (Code First)
