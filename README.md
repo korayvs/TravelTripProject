@@ -34,8 +34,8 @@ Bu proje, kullanıcıların blog yazılarını okuyabileceği, yorum yapabilece�
 - HTML, CSS, JavaScript
 - Bootstrap
 
-### 🏠 **Kullanıcı Arayüzü (UI)**
 ![giris](https://github.com/user-attachments/assets/12857b9c-f937-4663-9699-5425f9da70fb)
+### 🏠 **Kullanıcı Arayüzü (UI)**
 ![Screenshot_2](https://github.com/user-attachments/assets/22dbff77-1e4f-4085-948f-22c765a17320)
 ![Screenshot_3](https://github.com/user-attachments/assets/3fcbeba0-64bd-4424-b7ad-4655a1f6ae65)
 ![Screenshot_4](https://github.com/user-attachments/assets/4241be02-4830-4b62-8491-fca13a5185d3)
